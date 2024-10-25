@@ -1,10 +1,19 @@
-﻿namespace ConsoleApp7
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace ConsoleApp7
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+
+
+
+            Room room = new Room("123123",  24 , 24);
+
+
+            Console.WriteLine(room);
+
         }
     }
 }

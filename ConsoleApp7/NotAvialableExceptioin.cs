@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp7
 {
-    internal class NotAvialableExceptioin
+    internal class NotAvailableException : Exception
     {
+        public NotAvailableException(string message)
+        {
+
+        }
     }
 }
